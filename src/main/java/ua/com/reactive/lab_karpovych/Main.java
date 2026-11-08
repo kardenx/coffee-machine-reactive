@@ -1,4 +1,4 @@
-package ua.com.reactive.lab2_karpovych;
+package ua.com.reactive.lab_karpovych;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

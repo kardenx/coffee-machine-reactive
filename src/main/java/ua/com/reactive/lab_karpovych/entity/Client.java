@@ -1,4 +1,4 @@
-package ua.com.reactive.lab2_karpovych.entity;
+package ua.com.reactive.lab_karpovych.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

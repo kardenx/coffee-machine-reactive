@@ -1,4 +1,4 @@
-package ua.com.reactive.lab2_karpovych.handler;
+package ua.com.reactive.lab_karpovych.handler;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
@@ -7,8 +7,8 @@ import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import ua.com.reactive.lab2_karpovych.entity.Client;
-import ua.com.reactive.lab2_karpovych.entity.Greeting;
+import ua.com.reactive.lab_karpovych.entity.Client;
+import ua.com.reactive.lab_karpovych.entity.Greeting;
 
 @Component
 public class GreetingHandler {

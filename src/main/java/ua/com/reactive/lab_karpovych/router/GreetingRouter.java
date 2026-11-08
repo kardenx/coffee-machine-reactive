@@ -1,4 +1,4 @@
-package ua.com.reactive.lab2_karpovych.router;
+package ua.com.reactive.lab_karpovych.router;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -7,7 +7,7 @@ import org.springframework.web.reactive.function.server.RequestPredicates;
 import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.RouterFunctions;
 import org.springframework.web.reactive.function.server.ServerResponse;
-import ua.com.reactive.lab2_karpovych.handler.GreetingHandler;
+import ua.com.reactive.lab_karpovych.handler.GreetingHandler;
 
 import static org.springframework.web.reactive.function.server.RequestPredicates.accept;
 

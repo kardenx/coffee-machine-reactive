@@ -1,4 +1,4 @@
-package ua.com.reactive.lab2_karpovych.entity;
+package ua.com.reactive.lab_karpovych.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,9 +9,9 @@ import java.math.BigDecimal;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+public class Drink {
     private Long id;
-    private String firstName;
-    private String lastName;
-    private BigDecimal balance;
+    private String name;
+    private BigDecimal price;
+    private int portions;
 }

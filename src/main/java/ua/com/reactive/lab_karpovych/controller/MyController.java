@@ -1,11 +1,11 @@
-package ua.com.reactive.lab2_karpovych.controller;
+package ua.com.reactive.lab_karpovych.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import java.math.BigDecimal;
 import reactor.core.publisher.Flux;
-import ua.com.reactive.lab2_karpovych.entity.Client;
-import ua.com.reactive.lab2_karpovych.entity.Drink;
+import ua.com.reactive.lab_karpovych.entity.Client;
+import ua.com.reactive.lab_karpovych.entity.Drink;
 
 @RestController
 public class MyController {

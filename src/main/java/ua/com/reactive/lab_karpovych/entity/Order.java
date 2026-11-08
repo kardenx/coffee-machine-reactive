@@ -1,17 +1,18 @@
-package ua.com.reactive.lab2_karpovych.entity;
+package ua.com.reactive.lab_karpovych.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Drink {
+public class Order {
     private Long id;
-    private String name;
-    private BigDecimal price;
-    private int portions;
+    private Long userId;
+    private List<OrderItem> items;
+    private BigDecimal total;
 }
